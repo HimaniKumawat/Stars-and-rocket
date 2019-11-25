@@ -14,7 +14,6 @@ void setup()
 
 void draw()
 {
-  
   fill(9, 15, 24, 40);
   rect(0, 0, width, height);
   r=r+10;
@@ -30,6 +29,4 @@ void draw()
   strokeCap(ROUND);
   line(328,328,random(450,800),random(450,800));
   delay(2);
-  
-  
 }
